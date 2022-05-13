@@ -23,6 +23,28 @@
     height: 1701px;
 }
 
+.video {
+    display: flex;
+}
+
+.videos {
+    padding-right: 46px;
+}
+
+.down {
+    align-items: flex-end;
+}
+
+.back {
+    position: relative;
+    opacity: 60%;
+}
+
+.front {
+    position: absolute;
+}
+
+
 .navbar-itens nav ul {
     padding: 0;
     list-style: none;
@@ -73,7 +95,6 @@ main {
     background-color: #FDF1EB;
     flex-direction: column;
     grid-template-columns: 3fr 1fr 1fr;
-    padding-left: 45px;
     height: 68px;
 }
 
@@ -84,10 +105,12 @@ main {
 
 .welcome {
     text-align: right;
+    display: flex;
 }
 
 .welcome img {
-    border-radius: 50%;
+    border-radius: 50px;
+    display: inline-block;
 }
 
 .first,
@@ -203,7 +226,7 @@ h1 {
     height: 621px;
     left: 0px;
     top: 761px;
-text-align: center;
+    text-align: center;
     border: 1px solid #ECECEC;
     border-radius: 3px;
 }
@@ -285,7 +308,7 @@ text-align: center;
     color: #4D4D4D;
 }
 
-.card-foot{
+.card-foot {
     display: flex;
 }
 
@@ -295,7 +318,8 @@ text-align: center;
     border-radius: 2px;
     color: white;
 }
-.card-foot :nth-child(1){
+
+.card-foot :nth-child(1) {
     color: #ED7839;
     background-color: white;
 }
