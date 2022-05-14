@@ -25,23 +25,29 @@
 
 .video {
     display: flex;
+    position: relative;
+    
 }
 
 .videos {
     padding-right: 46px;
+    position: relative;
 }
 
-.down {
-    align-items: flex-end;
+.videos :nth-child(4){
+    border-radius: 50px;
+
 }
 
 .back {
     position: relative;
     opacity: 60%;
+    display: flex;
 }
 
 .front {
     position: absolute;
+
 }
 
 
